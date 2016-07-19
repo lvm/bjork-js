@@ -1,7 +1,7 @@
 # Bjork
 
 [This is my library, there are many like it, but this one is mine](https://www.youtube.com/watch?v=YoU2hlDJmFE).  
-So, yes: Yet another JavaScript implementation of E. Bjorklund algorithm.  
+So, yes: Yet another JavaScript implementation of E. Bjorklund's algorithm.  
 
 ## Usage
 
@@ -9,8 +9,6 @@ So, yes: Yet another JavaScript implementation of E. Bjorklund algorithm.
 var bjork = require('bjork')
     ,to_ex_dot = function(i){ return i? 'x': '.'; }
     ;
-
-va
 
 console.log( bjork(3,8) );
 console.log( bjork(3,8).map(to_ex_dot).join('') );
