@@ -1,0 +1,29 @@
+{
+  "name": "bjork",
+  "version": "0.0.1",
+  "description": "Traditional music rhythms (Euclidean/Bjorklung algorithm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvm/bjork-js"
+  },
+  "bugs": {
+    "url": "https://github.com/lvm/bjork-js/issues"
+  },
+  "keywords": [
+    "euclidean",
+    "bjorklund",
+    "music",
+    "rhythms",
+    "patterns"
+  ],
+  "author": "Mauro <mauro@sdf.org>",
+  "license": "MIT"
+}
